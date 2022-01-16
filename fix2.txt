@@ -1,0 +1,50 @@
+1.  mkdir GitDemo
+    cd GitDemo
+    mkdir github
+    cd github
+    git init
+
+2.  type NUL > README.md
+
+3.  git add README.md
+    git commit -m "Initial commit"
+
+4.  git branch feature1
+    git switch feature1
+
+5.  git add README.md
+    git commit -m "Add dog and change moose to mouse"   
+
+6.  git switch master
+    git add README.md
+    git commit -m "Change text moose to mahmut" 
+
+7.  git merge feature1
+    "Fixed cinflict for this merge"
+    git add README.md
+    git commit -m "Merge feature and master branch" 
+
+8.  git tag extinct c4e2491
+
+9.  git reset --hard 2ec72ee
+
+10. git branch feature2
+
+11. git add README.md
+    git commit -m "Change first letter to uppercase"
+
+12. git switch feature2
+    type NUL > fix1.txt
+    git add fix1.txt
+    git commit -m "Add fix1.txt"
+
+    type NUL > fix2.txt
+    git add fix2.txt
+    git commit -m "Add fix2.txt"
+    
+13. git switch master
+
+14. git cherry-pick 24992891a
+
+15. git add fix2.txt
+    git commit -m "Add text in fix2.txt"
