@@ -48,3 +48,10 @@
 
 15. git add fix2.txt
     git commit -m "Add text in fix2.txt"
+
+16. git remote add origin https://github.com/ReymartNarvaez/GitLaboration.git
+    git push -u origin master
+    git switch feature1
+    git push origin feature1
+    git switch feature2
+    git push origin feature2
